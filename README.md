@@ -13,6 +13,11 @@ gogo/
 │   ├── solution.go.tmpl               # Go starter
 │   └── solution_test.go.tmpl          # Table-driven test starter
 └── problems/
+    ├── 0082-remove-duplicates-from-sorted-list-ii/
+    │   ├── README.md
+    │   ├── list_node.go               # Local definition supplied by LeetCode
+    │   ├── solution.go
+    │   └── solution_test.go
     └── 1471-the-k-strongest-values-in-an-array/
         ├── README.md                 # Approach, walkthrough, correctness, complexity
         ├── solution.go
@@ -39,6 +44,7 @@ Percentages preserve the supplied source row; they are not live statistics. Add 
 
 | ID | Problem / notes | Difficulty | Acceptance | Frequency | Patterns | Status |
 | --- | --- | --- | --- | --- | --- | --- |
+| 82 | [Remove Duplicates from Sorted List II](problems/0082-remove-duplicates-from-sorted-list-ii/README.md) | Medium | 52.1% | 25.0% | Linked list, dummy head, two pointers | Solved |
 | 1471 | [The k Strongest Values in an Array](problems/1471-the-k-strongest-values-in-an-array/README.md) | Medium | 62.8% | 25.0% | Sorting, two pointers | Solved (example) |
 
 ## Add a problem
@@ -66,3 +72,5 @@ Percentages preserve the supplied source row; they are not live statistics. Add 
 6. Add a progress row with the original problem metadata and your status.
 
 To submit on LeetCode, copy the imports, function, and any helpers from `solution.go`; omit the `package solution` line and the test file. Local solutions use `go test`, so no `main` function is needed.
+
+For problems with judge-provided types such as `ListNode`, keep the local definition in a separate file (for example, `list_node.go`) and omit that file when submitting.
