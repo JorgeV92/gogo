@@ -18,6 +18,10 @@ gogo/
     │   ├── list_node.go               # Local definition supplied by LeetCode
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 0087-scramble-string/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     └── 1471-the-k-strongest-values-in-an-array/
         ├── README.md                 # Approach, walkthrough, correctness, complexity
         ├── solution.go
@@ -45,6 +49,7 @@ Percentages preserve the supplied source row; they are not live statistics. Add 
 | ID | Problem / notes | Difficulty | Acceptance | Frequency | Patterns | Status |
 | --- | --- | --- | --- | --- | --- | --- |
 | 82 | [Remove Duplicates from Sorted List II](problems/0082-remove-duplicates-from-sorted-list-ii/README.md) | Medium | 52.1% | 25.0% | Linked list, dummy head, two pointers | Solved |
+| 87 | [Scramble String](problems/0087-scramble-string/README.md) | Hard | 45.0% | 25.0% | Dynamic programming, memoized recursion | Solved |
 | 1471 | [The k Strongest Values in an Array](problems/1471-the-k-strongest-values-in-an-array/README.md) | Medium | 62.8% | 25.0% | Sorting, two pointers | Solved (example) |
 
 ## Add a problem
