@@ -27,6 +27,11 @@ gogo/
     │   ├── tree_node.go               # Local definition supplied by LeetCode
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 0230-kth-smallest-element-in-a-bst/
+    │   ├── README.md
+    │   ├── tree_node.go               # Local definition supplied by LeetCode
+    │   ├── solution.go
+    │   └── solution_test.go
     └── 1471-the-k-strongest-values-in-an-array/
         ├── README.md                 # Approach, walkthrough, correctness, complexity
         ├── solution.go
@@ -56,6 +61,7 @@ Percentages preserve the supplied source row; they are not live statistics. Add 
 | 82 | [Remove Duplicates from Sorted List II](problems/0082-remove-duplicates-from-sorted-list-ii/README.md) | Medium | 52.1% | 25.0% | Linked list, dummy head, two pointers | Solved |
 | 87 | [Scramble String](problems/0087-scramble-string/README.md) | Hard | 45.0% | 25.0% | Dynamic programming, memoized recursion | Solved |
 | 199 | [Binary Tree Right Side View](problems/0199-binary-tree-right-side-view/README.md) | Medium | 70.7% | 37.5% | Binary tree, depth-first search | Solved |
+| 230 | [Kth Smallest Element in a BST](problems/0230-kth-smallest-element-in-a-bst/README.md) | Medium | 77.0% | 37.5% | Binary search tree, inorder traversal, stack | Solved |
 | 1471 | [The k Strongest Values in an Array](problems/1471-the-k-strongest-values-in-an-array/README.md) | Medium | 62.8% | 25.0% | Sorting, two pointers | Solved (example) |
 
 ## Add a problem
