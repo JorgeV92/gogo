@@ -32,6 +32,10 @@ gogo/
     │   ├── tree_node.go               # Local definition supplied by LeetCode
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 0689-maximum-sum-of-3-non-overlapping-subarrays/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     └── 1471-the-k-strongest-values-in-an-array/
         ├── README.md                 # Approach, walkthrough, correctness, complexity
         ├── solution.go
@@ -62,6 +66,7 @@ Percentages preserve the supplied source row; they are not live statistics. Add 
 | 87 | [Scramble String](problems/0087-scramble-string/README.md) | Hard | 45.0% | 25.0% | Dynamic programming, memoized recursion | Solved |
 | 199 | [Binary Tree Right Side View](problems/0199-binary-tree-right-side-view/README.md) | Medium | 70.7% | 37.5% | Binary tree, depth-first search | Solved |
 | 230 | [Kth Smallest Element in a BST](problems/0230-kth-smallest-element-in-a-bst/README.md) | Medium | 77.0% | 37.5% | Binary search tree, inorder traversal, stack | Solved |
+| 689 | [Maximum Sum of 3 Non-Overlapping Subarrays](problems/0689-maximum-sum-of-3-non-overlapping-subarrays/README.md) | Hard | 59.9% | 25.0% | Dynamic programming, prefix sums, sliding window | Solved |
 | 1471 | [The k Strongest Values in an Array](problems/1471-the-k-strongest-values-in-an-array/README.md) | Medium | 62.8% | 25.0% | Sorting, two pointers | Solved (example) |
 
 ## Add a problem
